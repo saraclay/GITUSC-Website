@@ -1,0 +1,101 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  padding-top:200px;
+  line-height: 200px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/bckrnd/twitterheader.png");
+}
+
+section.module.parallax-2 {
+  background-image: url("../img/bckrnd/fceos.jpg");
+}
+
+section.module.parallax-2 {
+  height: 350px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
+}*/
+
+.faces-container {
+  text-align: center;
+  display: inline-block;
+  width:90%;
+}
+
+.faces {
+  display: inline-block;
+  padding:5px;
+  width:175px; 
+  height:175px;
+}
+
+.faces-box {
+  margin: 10px 0 0 0;
+  padding-left: 17%;
+  padding-left:7%;
+}
+
+@media all and (min-width: 600px) {
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 60px;
+  }
+  section.module h2 {
+    font-size: 42px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 90px;
+  }
+}
